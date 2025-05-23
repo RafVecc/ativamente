@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block corpo %}
+
+<div class="conteudo">
+    {% include 'topo.html' %}
+    <main>
+        <div class="bloco_conteudo">
+
+            {% block conteudo %}
+            <div class="card border-0 shadow-sm">
+              
+                <div class="card-body">
+            
+                    <div class="table-responsive">
+            
+                        <table id="tabelaUsuarios" url="{{url()}}" class="table table-striped" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Instituição</th>
+                                    <th>Telefone</th>
+                                    <th>E-mail</th>
+                                    <th>Link</th>
+                                    <th>Endereço</th>
+                                    <th>Atividades</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                               
+                                <tr>
+                                    <td>Projeto Oportunidade Através do Esporte - De Peito Aberto (DPA)</td>
+                                    <td>(71) 4113-5252</td>
+                                    <td>Comunicacao@depeitoaberto.com.br</td>
+                                    <td>https://depeitoaberto.org.br</td>
+                                    <td>R. do Telégrafo, s/n - Centro, Camaçari - BA, 42802-721</td>
+                                    <td>Aulas de futsal, futebol de campo, natação e boxe para crianças e adolescentes de 7 a 17 anos</td>
+                                </tr>
+                                <tr>
+                                    <td>Secretaria de Esporte, Lazer e Juventude (SEJUV)</td>
+                                    <td>(71) 98137-1615</td>
+                                    <td>ouvidoria@camacari.ba.gov.br</td>
+                                    <td>Sem link</td>
+                                    <td>Endereço divulgado pela SEJUV</td>
+                                    <td>Aulões de capoeira, jiu-jitsu, FitDance e oficinas de teatro, voltadas para jovens e adolescentes</td>
+                                </tr>
+                                <tr>
+                                    <td>Complexo Poliesportivo do CSU do Gravatá</td>
+                                    <td>(71) 3621-5032 / (71) 3644-0837</td>
+                                    <td>csucamacari@seades.ba.gov.br</td>
+                                    <td>Sem link</td>
+                                    <td>Avenida Vereador Pedro Ribeiro de Freitas, s/n - Gravatá, Camaçari - BA, CEP 42808-130</td>
+                                    <td>Aulas de jiu-jitsu, Zumba, Futebol, Futsal, Vôlei, Futevôlei, Informática</td>
+                                </tr>
+                                <tr>
+                                    <td>Projeto Verão</td>
+                                    <td>(71) 99979-5867</td>
+                                    <td>seduc.apae@camacari.ba.gov.br</td>
+                                    <td>Sem link</td>
+                                    <td>Rua Francisco Drumond, S/N, Centro Administrativo, Camaçari - BA</td>
+                                    <td>Futevôlei, vôlei de praia, futebol, baleado, skate, lutas, boxe, jiu-jitsu, capoeira, tirolesa, arborismo e escalada</td>
+                                </tr>
+                              
+                            </tbody>
+            
+                        </table>
+            
+                    </div>
+            
+            
+                </div>
+            </div>
+            {% endblock %}
+        </div>
+    </main>
+    {# {% include 'rodape.html' %} #}
+</div>
+
+{% endblock %}

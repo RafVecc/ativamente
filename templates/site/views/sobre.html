@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block corpo %}
+
+<div class="conteudo">
+    {% include 'topo.html' %}
+    <main>
+        <div class="bloco_conteudo">
+
+            {% block conteudo %}
+            <div class="row">
+                <div class="col-lg-3 card border-2 shadow-sm mb-1 ms-4">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-12 card border-2 shadow-sm mb-3">
+                                <div class="card-body">
+                                    <img src="{{url('templates/site/assets/img/psicologa-avatar.jpg')}}" alt=""
+                                        id="imgPhoto">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7-half card border-2 shadow-sm mb-1 ms-4">
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum, nunc in
+                            tincidunt convallis, lorem nulla dignissim erat, nec tristique velit justo et urna. Aenean
+                            in diam id risus vestibulum dictum. Sed finibus semper justo, a pretium lorem ultricies nec.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7-half card border-2 shadow-sm mb-1 ms-4">
+                    <div class="card-body">
+                        <p>
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                            Curabitur iaculis, metus ut cursus euismod, purus turpis tincidunt nulla, in commodo lacus
+                            eros in eros. Nulla facilisi. Donec nec ullamcorper erat. Morbi luctus tempor erat, sed
+                            convallis eros fermentum nec.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 card border-2 shadow-sm mb-1 ms-4">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-12 card border-2 shadow-sm mb-3">
+                                <div class="card-body">
+                                    <img src="{{url('templates/site/assets/img/desenvolvedor-avatar.jpg')}}" alt=""
+                                        id="imgPhoto">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            {% endblock %}
+        </div>
+    </main>
+    {# {% include 'rodape.html' %} #}
+</div>
+
+{% endblock %}

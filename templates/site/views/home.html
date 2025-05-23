@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block corpo %}
+
+<div class="conteudo">
+    {% include 'topo.html' %}
+    <main>
+        <div class="bloco_conteudo">
+
+            {% block conteudo %}
+            <div class="txt-inicio">
+                <h2>SOBRE:</h2>
+                <p>
+                  O AtivaMente é um site criado para ajudar crianças e adolescentes a encontrarem instituições
+                  voluntárias que oferecem atividades físicas gratuitas. Nosso propósito é promover saúde, bem-estar e
+                  inclusão social por meio do movimento e do esporte.
+                  <br><br>
+                  A prática regular de atividades físicas não melhora
+                  apenas o condicionamento físico, mas também tem um impacto muito positivo na saúde emocional. Exercitar-se
+                  ajuda a aliviar o estresse, reduz a ansiedade, melhora o sono e aumenta a autoestima.
+                  <br><br>
+                  Além disso,
+                  movimentar-se em grupo fortalece vínculos sociais, estimula o trabalho em equipe e combate o sentimento de
+                  solidão. Com uma interface simples e acessível, o site permite que os jovens busquem por atividades perto
+                  de onde moram, de acordo com sua idade e preferências.
+                  <br><br>
+                  Futebol, dança, capoeira, yoga, luta, atletismo tudo
+                  de forma gratuita e em locais seguros, com acompanhamento de profissionais ou voluntários capacitados.
+                </p>
+              </div>
+            {% endblock %}
+        </div>
+    </main>
+    {# {% include 'rodape.html' %} #}
+</div>
+
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block corpo %}
+
+<div class="bloco_login">
+
+  <div class="col-md-6 col-sm-6 col-lg-4 mx-auto">
+
+    <div class="boxLogin">
+
+      <div class="card-body">
+
+        {{ flash() }}
+        <form action="{{url('login')}}" method="post">
+
+          <label class="labelLogin text-primary" for="login">Usuário:</label>
+          <div class="mb-3">
+            <input type="login" name="login" id="login" class="inputLogin" required>
+          </div>
+
+          <label class="labelSenha text-primary" for="senha">Senha:</label>
+          <div class="form-floating mb-3">
+            <input type="password" name="senha" id="senha" class="inputLogin">
+          </div>
+
+          <button class="w-100 btn btn-lg btn-dark mb-3" type="">ACESSAR</button>
+          <a href="{{url('home')}}"><button class="w-100 btn btn-lg btn-warning" type="button">VOLTAR</button></a>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+{% endblock %}

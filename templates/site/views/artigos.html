@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block corpo %}
+
+<div class="conteudo">
+    {% include 'topo.html' %}
+    <main>
+        <div class="bloco_conteudo">
+
+            {% block conteudo %}
+            <div class="txt-inicio">
+                <h2>ARTIGOS:</h2>
+                <p>
+                    Esta página reunirá links para artigos que exploram a psicologia e os benefícios das atividades extracurriculares na vida de adolescentes, destacando como essas experiências contribuem para o desenvolvimento emocional, social e acadêmico
+                </p>
+              </div>
+            {% endblock %}
+        </div>
+    </main>
+    {# {% include 'rodape.html' %} #}
+</div>
+
+{% endblock %}

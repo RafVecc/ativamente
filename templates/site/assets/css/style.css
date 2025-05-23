@@ -1,0 +1,153 @@
+.box-pricipal {
+  background-color: rgb(144, 178, 241);
+  padding: 50px;
+  width: 600px;
+  border-radius: 50px;
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  text-align: center;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 25px;
+  z-index: 3;
+}
+
+
+.box-pricipal {
+  transition: opacity 0.5s ease;
+}
+
+.bloco_login{
+  padding-top: 12%;
+}
+
+.box-pricipal.oculta {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.box-sobposta {
+  position: absolute;
+  /* top: 100px; */
+  left: 15px;
+  width: 1350px;
+  height: 150px;
+  background-color: #ff4ac9;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.img-cerebro {
+  width: 225px;
+  top: -35px;
+  position: absolute;
+}
+
+.bola-laranja-fundo {
+  position: absolute;
+  /* top: -350; */
+  left: 800px;
+  width: 50%;
+  height: 380px;
+  background-color: orange;
+  border-radius: 60px;
+  z-index: -1;
+  border-radius: 50%;
+  top: -200px;
+}
+
+/*menu*/
+header {
+  padding: 14px 4%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
+  z-index: 1000;
+}
+
+/* Organiza os itens do menu em linha com espaçamento */
+header nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+/* Estilo dos itens da lista */
+header nav ul li {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Estilo dos links */
+.menu-item {
+  background-color: #ffafcc;
+  color: #1239e6;
+  padding: 15px 25px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+
+h2 {
+  font-size: 30px;
+  color: #3c007a;
+  margin-bottom: 80px;
+  margin-left: 0;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-align: left;
+}
+
+
+
+/*Upload imagem*/
+
+.upload-imagem {
+  background-color: rgb(216, 199, 199);
+  border-radius: 20px;
+  padding: 30px;
+  width: 40%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.upload-imagem h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #080808;
+}
+
+.espaco-imagem {
+  width: 100%;
+  height: 200px;
+  border: 2px dashed #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.espaco-imagem img {
+  max-width: 100%;
+  max-height: 100%;
+  display: none;
+}
+
+.menu-topo {
+  display: flex !important;
+
+}

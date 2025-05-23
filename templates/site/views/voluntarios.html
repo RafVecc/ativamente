@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block corpo %}
+
+<div class="conteudo">
+    {% include 'topo.html' %}
+    <main>
+        <div class="bloco_conteudo">
+
+            {% block conteudo %}
+
+            {% endblock %}
+        </div>
+    </main>
+    {# {% include 'rodape.html' %} #}
+</div>
+
+{% endblock %}
