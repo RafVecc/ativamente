@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
-body {
+/* body {
     font-family: "Inter", "Helvetica Neue", Arial;
     background-image: url('../img/background.png') !important;
     background-position: center top !important;
     background-size: 100% auto !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-}
+} */
 
 .saudacao {
     font-size: .7em
