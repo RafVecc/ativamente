@@ -14,7 +14,7 @@ define('SITE_DESCRICAO', 'Sistema Informativo de Atividades Psicológicas Volunt
 
 //urls do sistema
 define('URL_PRODUCAO', 'https://gapi-homologa.salvador.ba.gov.br');
-define('URL_DESENVOLVIMENTO', 'http://localhost/ativamente');
+define('URL_DESENVOLVIMENTO', 'http://localhost:8080/ativamente');
 
 
 
