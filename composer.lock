@@ -52,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/dompdf.git",
-                "reference": "723529bda1cbc3cf7a819d5fd4303554979172fb"
+                "reference": "0e5c566f7c15381126a6358aab838a0b9fb47b45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/723529bda1cbc3cf7a819d5fd4303554979172fb",
-                "reference": "723529bda1cbc3cf7a819d5fd4303554979172fb",
+                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/0e5c566f7c15381126a6358aab838a0b9fb47b45",
+                "reference": "0e5c566f7c15381126a6358aab838a0b9fb47b45",
                 "shasum": ""
             },
             "require": {
@@ -109,7 +109,7 @@
                 "issues": "https://github.com/dompdf/dompdf/issues",
                 "source": "https://github.com/dompdf/dompdf/tree/master"
             },
-            "time": "2025-01-16T13:04:16+00:00"
+            "time": "2025-05-21T13:58:04+00:00"
         },
         {
             "name": "dompdf/php-font-lib",
@@ -391,12 +391,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "ac30223de5b8b076b4ad70f6a442429508d5a5d6"
+                "reference": "bf74d75a1fde6beaa34a0ddae2ec5fce0f72a144"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/ac30223de5b8b076b4ad70f6a442429508d5a5d6",
-                "reference": "ac30223de5b8b076b4ad70f6a442429508d5a5d6",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/bf74d75a1fde6beaa34a0ddae2ec5fce0f72a144",
+                "reference": "bf74d75a1fde6beaa34a0ddae2ec5fce0f72a144",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +457,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/master"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.10.0"
             },
             "funding": [
                 {
@@ -465,7 +465,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-05T20:13:57+00:00"
+            "time": "2025-04-24T15:19:31+00:00"
         },
         {
             "name": "sabberworm/php-css-parser",
@@ -473,12 +473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MyIntervals/PHP-CSS-Parser.git",
-                "reference": "c2254ef400f025b8d8033410db648ce48b9a9299"
+                "reference": "d11477ca6b3e7aa2cdd652d34ca444552d72dafd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/c2254ef400f025b8d8033410db648ce48b9a9299",
-                "reference": "c2254ef400f025b8d8033410db648ce48b9a9299",
+                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/d11477ca6b3e7aa2cdd652d34ca444552d72dafd",
+                "reference": "d11477ca6b3e7aa2cdd652d34ca444552d72dafd",
                 "shasum": ""
             },
             "require": {
@@ -486,7 +486,8 @@
                 "php": "^5.6.20 || ^7.0.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "5.7.27 || 6.5.14 || 7.5.20 || 8.5.41"
+                "phpunit/phpunit": "5.7.27 || 6.5.14 || 7.5.20 || 8.5.41",
+                "rawr/cross-data-providers": "^2.0.0"
             },
             "suggest": {
                 "ext-mbstring": "for parsing UTF-8 CSS"
@@ -530,7 +531,7 @@
                 "issues": "https://github.com/MyIntervals/PHP-CSS-Parser/issues",
                 "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.x"
             },
-            "time": "2025-02-11T19:02:20+00:00"
+            "time": "2025-05-05T08:20:10+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -582,7 +583,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/main"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0-BETA1"
             },
             "funding": [
                 {
@@ -662,7 +663,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -744,7 +745,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/1.x"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -764,16 +765,16 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.8.2",
+            "version": "6.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "f7a781073e1645062f163e058139e2f89355d420"
+                "reference": "c838d7f7babb0d35763acfb9ecf78c3f45966f83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/f7a781073e1645062f163e058139e2f89355d420",
-                "reference": "f7a781073e1645062f163e058139e2f89355d420",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/c838d7f7babb0d35763acfb9ecf78c3f45966f83",
+                "reference": "c838d7f7babb0d35763acfb9ecf78c3f45966f83",
                 "shasum": ""
             },
             "require": {
@@ -786,8 +787,6 @@
                     "config",
                     "include",
                     "tcpdf.php",
-                    "tcpdf_parser.php",
-                    "tcpdf_import.php",
                     "tcpdf_barcodes_1d.php",
                     "tcpdf_barcodes_2d.php",
                     "include/tcpdf_colors.php",
@@ -825,15 +824,15 @@
             ],
             "support": {
                 "issues": "https://github.com/tecnickcom/TCPDF/issues",
-                "source": "https://github.com/tecnickcom/TCPDF/tree/6.8.2"
+                "source": "https://github.com/tecnickcom/TCPDF/tree/6.9.4"
             },
             "funding": [
                 {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&currency_code=GBP&business=paypal@tecnick.com&item_name=donation%20for%20tcpdf%20project",
+                    "url": "https://www.paypal.com/donate/?hosted_button_id=NZUEC5XS8MFBJ",
                     "type": "custom"
                 }
             ],
-            "time": "2025-01-26T14:03:12+00:00"
+            "time": "2025-05-13T11:34:35+00:00"
         },
         {
             "name": "twig/twig",
@@ -841,12 +840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "586e3decdd2544ca362e703307f4caa4f08b2cfc"
+                "reference": "5f2b1ee6dec66202dcc3c4ab52670313f30e20d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/586e3decdd2544ca362e703307f4caa4f08b2cfc",
-                "reference": "586e3decdd2544ca362e703307f4caa4f08b2cfc",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/5f2b1ee6dec66202dcc3c4ab52670313f30e20d2",
+                "reference": "5f2b1ee6dec66202dcc3c4ab52670313f30e20d2",
                 "shasum": ""
             },
             "require": {
@@ -913,7 +912,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-02-13T08:35:50+00:00"
+            "time": "2025-05-23T11:16:20+00:00"
         },
         {
             "name": "verot/class.upload.php",
